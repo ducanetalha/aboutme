@@ -1,0 +1,80 @@
+﻿
+        body {
+            color:navy;
+            background-color: Gray;
+            background-image: url("https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1msFQC.img");
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: italic;
+            font-weight: bold;
+            letter-spacing: 0.3em;
+            margin: 50px;
+        }
+/* aaaaa links */
+        a {
+            color: blue ;
+            background-color: transparent;
+            
+        }:visited {
+            color: darkgoldenrod;
+        }
+/* when mouse comes to links */
+a:hover {
+    color: hotpink;
+  
+}
+
+
+#wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+    color: white;
+    font-size: x-large;
+    margin-left: 40px;
+    background-color: black;
+    font-family: "Sixtyfour Convergence", sans-serif;
+    line-height: 1.5;
+    width: 92%;
+    text-indent: 40px;
+   text-align: center;
+   
+}
+        p.ridge {
+            border-style: ridge;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+         
+          
+            
+        }
+
+li.center {
+    text-align: center;
+    color: red;
+}
+
+li.large {
+    font-size: 300%;
+}
+
+img {
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 58%;
+
+}
+    img:hover {
+        border-radius: 60px;
+    }
+    
+
+    
