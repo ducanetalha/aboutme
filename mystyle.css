@@ -13,8 +13,8 @@
         a {
             color: blue ;
             background-color: transparent;
-            
-        }:visited {
+        }
+        a:visited {
             color: darkgoldenrod;
         }
 /* when mouse comes to links */
@@ -26,7 +26,6 @@ a:hover {
 
 #wrapper {
     width: 80%;
-    margin-right: auto;
     margin-right: auto;
     margin-left: auto;
 }
