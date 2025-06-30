@@ -1,54 +1,86 @@
 ﻿<!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<!-- hi i have my comment in here  -->
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title> Ducane Talha Karaburun </title>
-    <!-- icon -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Ducane</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <!-- icon -->
-    <link rel="stylesheet" href="mystyle.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
 </head>
+<body>
 
-<!-- hi i have my comment in here  -->
-<body id="wrapper">
-    <header>  <h1> <strong>  <em> &nbsp; &nbsp; &nbsp; &nbsp; Ducane Talha Karaburun   </em> </strong> </h1> </header>
-    <nav>
+    <header>
 
-        <a href="index.html">Home</a>
-        <a href="family.html">Family</a>
-        <a href="rafting.html">Rafting</a>
-        <a href="cooking.html">Cooking</a>
-        <a href="teaching.html">Teaching</a>
-        <!-- hi i have my comment in here  -->
-        &nbsp; &nbsp; &nbsp; &nbsp; <a href="http://www.fvcc.edu" target="_blank">Contact Me</a> &nbsp; &nbsp; &nbsp; &nbsp;  <a href="http://www.fvcc.edu" target="_blank">My Shop</a>
-    </nav>
-    <hr />
+        <nav class="hamburger">
+            <div class="hamburger-icon" style="float: left;" onclick="toggleMenu()">☰</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="teaching.html">Teaching</a></li>
+                <li><a href="rafting.html">Rafting</a></li>
+                <li><a href="family.html">Family</a></li>
+                <li><a href="cooking.html">Cooking</a></li>
+            </ul>
+        </nav>
+
+        <script>
+        function toggleMenu() {
+            document.querySelector('.hamburger').classList.toggle('active');
+        }
+        </script>
+
+    </header><div class="video-background">
+
+    <h1>Ducane Karaburun</h1>
+    <h2>Home</h2>
+    <h3>Fethiye</h3>
+    <video autoplay loop muted playsinline>
+        <source src="images/video.mp4" type="video/mp4">
+
+    </video>
+</div>
+
+
     <main>
-        <h2> – Welcome to Ducanes life –</h2>
-        <blockquote>
-            <em>
-                Ducane born in Fethiye witch is a very popular place for swimming, hikig, paragliding and more ducane and his 2 friend studied at 3 diffrent high school to travel and explore other cities of turkey. ducane is a very good student and he is very good at math and physics ducane is a very good basketball player and he is playing basketball since he was 16 years old. he studied at bahcesehir university game development and design for 1 year and he is now studying at Flathead Valley Community College in Montana. he loves hiking montain biking swimming and skiing he is a very active person and he loves to travel and explore new places. he is a very good cook and he loves to cook for his friends and family. he is a very good friend. he is a very good listener and he is always there for his friends. he is a very good person and he is always trying to help people. he is a very good son and he is always trying to make his parents proud. and wants to be retire at 35 and travel the world and live in a van.
 
-            </em>
-        </blockquote>
-        <img src="images/home.jpg" alt="winter home picture" />
+        <div class="content">
+            <div class="image">
+                <img src="images/f1.jpg" alt="Scenic mountain view">
+            </div>
+
+            <div class="about-me">
+
+                <p>
+                    Ducane born in Fethiye which is a very popular place for swimming, hiking, paragliding and more. Ducane and his
+                    2 friends studied at 3 different high schools to travel and explore other cities of Turkey. Ducane is a very
+                    good student and he is very good at math and physics. Ducane is a very good basketball player, and he has been
+                    playing basketball since he was 16 years old. He studied at Bahcesehir University game development and design
+                    for 1 year and he is now studying at Flathead Valley Community College in Montana. He loves hiking, mountain
+                    biking, swimming, and skiing. He is a very active person and loves to travel and explore new places.
+                    He is a very good cook and he loves to cook for his friends and family. He is a very good teacher and he loves to
+                    teach people new things. He is a very good rafting guide and he loves to take people on rafting trips.
+
+                    <br /> <br />
+
+                    <ul>
+                        <li><a href="https://www.facebook.com/ducane.karaburun" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/ducane.karaburun/" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.linkedin.com/in/ducane-karaburun-7b1b3b1b1/" target="_blank">Linkedin</a></li>
+                    </ul>
+
+                    <br /> <br />
+
+
+                </p>
+            </div>
+
+
+
+        </div>
+        <br />
+
+
     </main>
-    <p> </p>
-
-    <br> <br> <br> <br>
-    <strong> </strong>
-
-    <br> <br>
-
-    <a href="http://www.fvcc.edu" target="_blank">Fvcc</a>
-    <a href="https://claude.ai/new" target="_blank">Claude</a>
-
-
     <footer>
         <h6> Copyright &copy; <span id="year"></span> Ducane Talha Karaburun</h6>
     </footer>
